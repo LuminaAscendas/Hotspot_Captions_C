@@ -181,33 +181,35 @@ clicked {
 }
 #textcont_1{
 	display:block;
-}
+}/* 
 #label_cont_2{
 	height: 46px;
-    width: 127px;
+    width: 137px;
 	right: -8px;
 }
 #label_cont_3{
-	padding: 0 0 0px;
-    width: 100px;
+    width: 110px;
     margin: 10px auto;
     right: -8px;
 }
 #label_cont_5{
-    width: 46px;
+    width: 56px;
     height: 29px;
     right: -4px;
-/*	background: #ffec9e78;*/
+
 }
 #label_cont_4{
-	padding: 0 0 0px;
-    width: 111px;
+
+    width: 121px;
     margin: 10px auto;
     right: -8px;
 }
-#label_cont_6,#label_cont_7{
-	background: #fff;
+#label_cont_6{
+	width: 36px;
 }
+#label_cont_7{
+	width: 123px;
+} */
 .slideImg {
     width: 666px;
     height: 448px;
@@ -240,19 +242,6 @@ clicked {
     left: 0px;
     right: 0px;
 	
-}
-#label_1{
-	top: -1px;
-    left: 196px;
-}
-#label_2{
-	top: 395px;
-    left: 388px;
-}
-#label_3{
-	top: 393px;
-    left: 8px;
-	z-index: 1;
 }
 #begin_btn:hover{
 	opacity:0.7
@@ -294,23 +283,16 @@ clicked {
 		
 }
 .label_class{
-	font-size: 14px;
-/*    font-size: 14px;*/
-    /* background: #fff none repeat scroll 0 0; */
-    /* border: 1px solid #007098; */
-    border-radius: 5px;
-    /* box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); */
-    box-sizing: border-box;
-    height: inherit;
-    padding: 6px;
-    position: absolute;
-    width: inherit;
-    height: 74px;
-    width: 129px;
-    display: none;
-    padding-left: 0px;
-/*	overflow: hidden;*/
-}
+	background: white;
+	border-radius: 7px;
+	color: black;
+	left: 20px;
+	padding: 15px;
+	position: absolute;
+	display: none;
+	border: 2px solid #007098;
+	cursor: default;
+}/* 
 #label_1{
     left: 288px;
     top: 38px;
@@ -348,7 +330,7 @@ clicked {
     height: 36px;
     z-index: 1;
     width: 66px;
-}
+} */
 .patch{
 	background: #fff none repeat scroll 0 0;
     border: 1px solid #fff;
@@ -415,44 +397,50 @@ clicked {
 	z-index: 1;
 }
 #label_1{
-    left: 288px;
-    top: 38px;
+   /*  left: 266px;
+	top: 20px;
 	width: 119px;
-    height: 76px;
+    height: 76px; */
+	left: 276px;
+
+top: 33px;
+
+width: 119px;
 }
 #label_2{
-    top: 208px;
-    left: 465px;
-    height: 70px;
-    width: 154px;
+    top: 201px;
+	left: 453px;
+	width: 136px
+}
+#label_3{
+	top: 386px;
+	left: 284px;
+	width: 108px;
+	z-index: 1;
 }
 #label_4{
-	top: 212px;
-    left: 103px;
-    height: 117px;
-    width: 141px;
+	top: 201px;
+	left: 94px;
+	width: 118px;
     z-index: 1;
 }
 #label_5{
-    top: 74px;
-    left: 86px;
-    height: 62px;
-    width: 80px;
+    top: 66px;
+	left: 79px;
+	width: 63px;
     z-index: 1;
 }
 #label_6{
-	top: 373px;
-    left: 485px;
-    height: 57px;
-    width: 143px;
+	top: 331px;
+	left: 524px;
+	width: 102px;
     z-index: 1;
 }
 #label_7{
-    top: 441px;
-    left: 460px;
-    height: 36px;
-    z-index: 1;
-    width: 66px;
+	top: 431px;
+	left: 460px;
+	width: 42px;
+	z-index: 1;
 }
 .label_btn{
     background: #007098 none repeat scroll 0 0;
@@ -487,14 +475,8 @@ clicked {
     left: 388px;
 }
 */
-#label_3{
-	top: 396px;
-    left: 291px;
-    height: 59px;
-    width: 123px;
-	z-index: 1;
-}
-.label_content{
+
+.label_content1{
     padding: 0 0 7px;
     /* text-indent: 25px; */
     margin: 10px auto;
@@ -506,18 +488,49 @@ clicked {
 	color:#000;
 	background: #ffec9e;
 	
+	background: white;
+    border-radius: 7px;
+    color: black;
+    padding: 15px;
+    border: 2px solid #007098;
+    cursor: default;
+
+}
+	
 }
 .close_button:hover{
 	opacity:0.7;
 }
 .close_button{
     background: rgba(0, 0, 0, 0) url(../images/common/close_btn.png) no-repeat scroll 0 0;
-    cursor: pointer;
+   /*  cursor: pointer;
     height: 20px;
     position: absolute;
-    left: 2px;
-    top: 3px;
-    width: 20px;
+    left: 135px;
+	top: 15px;
+    width: 20px; */
+	
+	border: 2px solid #fff;
+
+border-radius: 15px;
+
+box-sizing: border-box;
+
+cursor: pointer;
+
+display: block;
+
+float: right;
+
+height: 26px;
+
+position: absolute;
+
+right: 0px;
+
+top: 5px;
+
+width: 26px;
 }
 .hotspot{
 	background: #007098 none repeat scroll 0 0;
@@ -606,10 +619,10 @@ clicked {
 	right:0px;
 	top:10px;	
 }
-#label_cont_1{
-	width: 103px;
+/* #label_cont_1{
+	width: 113px;
     right: -13px;
-}
+} */
 #image_container{
 	background:url('../images/blank.png') no-repeat;
 	
@@ -730,7 +743,7 @@ clicked {
 	font-size: 18px;
 /*	background: #fff;*/
 }
-
+/* 
 #label_4{
 	top: 212px;
     left: 103px;
@@ -758,7 +771,7 @@ clicked {
     height: 36px;
     z-index: 1;
     width: 66px;
-}
+} */
 #text_container{
 	width:100%;
 /*	min-height:77px; */
