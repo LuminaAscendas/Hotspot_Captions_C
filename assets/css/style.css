@@ -737,6 +737,7 @@ width: 26px;
 	color: #007098;
 	font-family: 'SourceSansPro-Bold';
 	font-size:14px;
+	display:none;
 	//text-align:center;
 }
 .swiper-slide {
