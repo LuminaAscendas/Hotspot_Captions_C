@@ -17,7 +17,7 @@ $(document).ready(function(){
 			begin_entered=true
 		//setTimeout(function(){
 			$('#begin_page').hide()	
-			$('#text_container,#responsive_container').show();
+			$('#text_container,#responsive_container').fadeIn(500);
 			resizeApp();
 			set_tab();
 			$('#reset_btn').off('click').on('click',pageReload);
